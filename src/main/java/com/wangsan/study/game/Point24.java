@@ -12,6 +12,8 @@ import com.wangsan.study.ds.Permutation;
 import com.wangsan.study.ds.Sample;
 
 /**
+ * 24点游戏
+ *
  * @author wangsan
  * @date 2018/09/17
  */
@@ -31,6 +33,10 @@ public class Point24 {
         System.out.println();
 
         calculate(Lists.newArrayList(1, 5, 5, 5)).forEach(System.out::println);
+        System.out.println();
+
+        calculate(Lists.newArrayList(1, 9, 8, 7)).forEach(System.out::println);
+        System.out.println();
     }
 
     public static Set<String> calculate(List<Integer> numbers) {
