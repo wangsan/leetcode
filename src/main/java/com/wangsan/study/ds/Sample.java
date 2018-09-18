@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
+ * 放回抽样
+ *
  * @author wangsan
  * @date 2018/09/17
  */

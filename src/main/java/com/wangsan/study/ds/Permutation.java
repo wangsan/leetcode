@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 不放回抽样=全排列
+ */
 public class Permutation {
     public static void main(String[] args) {
         List<String> abcd = new ArrayList<>();
@@ -39,7 +42,6 @@ public class Permutation {
             }
         }
 
-
         return result;
     }
 
@@ -57,7 +59,7 @@ public class Permutation {
     public static <T extends Comparable<? super T>> boolean nextPermutation(List<T> itemList) {
         int swap1 = itemList.size() - 1;
         int swap2 = itemList.size() - 1;
-        while (swap1 > 0 &&itemList.get(swap1).compareTo(itemList.get(swap1-1))>0) {
+        while (swap1 > 0 && itemList.get(swap1).compareTo(itemList.get(swap1 - 1)) > 0) {
 
         }
 
