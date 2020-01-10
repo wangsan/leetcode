@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class Q3LongestSubstring {
     public static void main(String[] args) {
-        Solution2 solution = new Solution2                                    ();
+        Solution2 solution = new Solution2();
 
         System.err.println(solution.lengthOfLongestSubstring("abcabcbb") == 3);
         System.err.println(solution.lengthOfLongestSubstring("bbbbb") == 1);
